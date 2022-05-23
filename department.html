@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TEAM</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="shortcut icon" href="/img/favicon-32x32.png" type="image/x-icon">
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="../College_Project/icon/css/fontawesome.min.css"> -->
+
+</head>
+
+<body>
+    <section class="header" id="teamsec">
+        <nav>
+            <a href="index.html"><img src="img/logo2.png" alt="logo2" /></a>
+            <h3>YOGESHWARI COLLEGE</h3>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/index.html">HOME</a></li>
+                    <li><a href="/about.html">ABOUT</a></li>
+                    <li><a href="/team.html">TEAM</a></li>
+                    <li><a href="/contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>TEAM</h1>
+
+    </section>
+    <!--------------COURSE---------------->
+    <section class="course teamclass">
+        <h1>Our Team</h1>
+        <p>
+            This website is developed and designed by Our professional and hardworking team.
+        </p>
+
+        <div class="row" id="team-row">
+            <div class="course-col team-col">
+                <img src="/img/umesh.jpg" alt="" class="team-member">
+
+                <h3>Umesh Pawar</h3>
+                <p>
+                    Full Stack Developer with expertise in BackEnd technologies like Java, Hibernate, MonGoDB and
+                    FrontEnd Javascript fremeworks like ReactJs.
+                </p>
+                <div class="icon">
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-linkedin"></i>
+                </div>
+
+            </div>
+
+            <div class="course-col team-col">
+                <img src="/img/uttreshwar.jpg" alt="" class="team-member">
+
+                <h3>Uttreshwar Nakhate</h3>
+                <p>
+                    Java Developer with expertise in technologies like Java , Spring and SpringBoot And designing
+                    with
+                    HTML and CSS3.
+                </p>
+                <div class="icon">
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-linkedin"></i>
+                </div>
+
+            </div>
+
+
+            <div class="course-col team-col">
+                <img src="/img/pranav.jpg" class="team-member">
+
+                <h3>Pranav Ausekar</h3>
+                <p>
+                    FrontEnd Web Developer with expertise in HTML5 , CSS3 along with some
+                    vanilla Javascript .
+                </p>
+                <div class="icon">
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-linkedin"></i>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!---------------- Footer------------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, quisquam
+            sunt recusandae expedita rem<br> accusamus maxime a velit et totam facilis cum iusto! Nesciunt, magnam,
+            porro,
+        <p>
+
+        <div class="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+
+    </section>
+
+
+    <!----------- JavaScriot For Toggle Menu ----------------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
